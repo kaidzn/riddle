@@ -3,7 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
     <link rel="stylesheet" href="dist/output.css">
     <title>Document</title>
 </head>
@@ -50,22 +53,22 @@
             </div>
         </div>
         <main>
-            <section id="hero">
+            <section id="hero" class="my-[54px]">
                 <div class="container mx-auto">
                     <div class="bg-gradient-to-l from-[#E100FF] to-[#7F00FF] rounded-xl">
-                       <div class="container mx-auto flex justify-between px-[50px] items-center">
-                        <div class="left w-[60%] font-nunito text-white">
-                            <div class="subheading">
-                                <a>TОП-3</a>
-                                <a>Участвует в распродаже</a>
+                       <div class="container mx-auto flex justify-between px-[50px] items-center py-[50px]">
+                        <div class="left w-[65%] font-nunito text-white flex flex-col gap-[20px] items-start">
+                            <div class="subheading font-nunito">
+                                <a class="text-black py-[2px] cursor-pointer px-[5px] rounded-lg bg-[#F2EC59]">TОП-3</a>
+                                <a class="text-black py-[2px] cursor-pointer px-[5px] rounded-lg bg-[#F2EC59]">Участвует в распродаже</a>
                             </div>
                             <p class="text-[45px] leading-[1] font-bold">
                                 BoostUp: Совершенствование вашей социальной презентации
                             </p>
-                            <p class="text-md">
+                            <p class="text-lg font-nunito">
                                 Раскрой свой потенциал в социальных сетях: научись доминировать в онлайн-мире с помощью нашего всестороннего курса SMM
                             </p>
-                            <a>Записаться на курс</a>
+                            <a class="px-[20px] py-[10px] bg-[#E7B840] font-bold uppercase rounded-lg">Записаться на курс</a>
                         </div>
                         <div class="right">
                             <img src="assets/hero/hero-img.png" alt="Hero image">
@@ -74,6 +77,282 @@
                   </div>
                 </div>
             </section>
+            <section id="how-it-works" class="my-[50px]">
+                <div class="container mx-auto">
+                    <div class="header-word">
+                        <p class="text-[53px] font-nunito font-bold">Ты в правильном месте если...</p>
+                    </div>
+                    <div class="flex">
+                        <div class="bg-gradient-to-l from-[#0575E6] to-[#021B79] rounded-2xl grid grid-cols-3 py-[50px] px-[20px] text-white">
+                            <div class="item flex flex-col justify-center items-center font-nunito w-[70%] gap-y-3">
+                                <img src="assets/how-it-works/Group 3.png">
+                                <p class="font-nunito font-bold text-4xl">Бизнесмен</p>
+                                <p class="text-center font-comfortaa text-[18px] leading-[1.1]">
+                                    Который хочет улучшить присутствие своего бизнеса в социальных сетях и увеличить количество клиентов
+                                </p>
+                            </div>
+                            <div class="item flex flex-col justify-center items-center font-nunito w-[70%] gap-y-3">
+                                <img src="assets/how-it-works/Group 4.png">
+                                <p class="font-nunito font-bold text-4xl">Маркетолог</p>
+                                <p class="text-center font-comfortaa text-[18px] leading-[1.1]">
+                                    Который хочет улучшить свои навыки и построить успешную карьеру, заработать дофигище
+                                </p>
+                            </div>
+                            <div class="item flex flex-col justify-center items-center font-nunito w-[70%] gap-y-3">
+                                <img src="assets/how-it-works/Group 5.png">
+                                <p class="font-nunito font-bold text-4xl">Новичок</p>
+                                <p class="text-center font-comfortaa text-[18px] leading-[1.1]">
+                                    Который хочет зарабатывать 500 тысяч в месяц, работая в интернете и хочет быть независимым ни от кого
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="about" class="my-[50px]">
+                <div class="container mx-auto">
+                    <div class="container w-[80%]">
+                    <div class="text-7xl font-nunito font-bold">
+                        <p>О профессии</p>
+                    </div>
+                    <div class="flex justify-between my-[70px]">
+                            <div class="first font-nunito">
+                                <p class="text-5xl font-semibold">300 000 тенге</p>
+                                <p class="text-xl">средняя зарплата специалиста</p>
+                            </div>
+                            <div class="second">
+                                <p class="text-5xl font-semibold">7000+ компаний</p>
+                                <p class="text-xl">ищут SMM-специалистов в Казахстане</p>
+                            </div>
+                    </div>
+                    <div class="flex flex-col gap-y-10">
+                        <p class="text-2xl font-nunito">
+                            Карьера в digital-сфере может начаться с профессии SMM-специалиста: навыки можно освоить с нуля, а многие компаний готовы взять на стажировку новичков. Полученный опыт позволит не только развиваться в маркетинге, но и расширить горизонты в IT-индустрии.
+                        </p>
+                        <p class="text-2xl font-nunito">
+Преимущество SMM-специалиста - возможность работы из дома, сотрудничество с несколькими клиентами одновременно и гибкость в выборе работодателей, даже за границей.
+                        </p>
+                    </div>
+                    </div>
+                    
+                </div>
+            </section>
+            <section id="what-u-know" class="my-[100px]">
+                <div class="container mx-auto">
+                    <div class="text-7xl font-nunito font-bold">
+                        <p>Чему ты научишься</p>
+                    </div>
+                    <div class="grid grid-cols-3 gap-5 mt-[50px]">
+                        <div class="item">
+                            <div class="bg-gradient-to-l from-[#F7AF30] to-[#F9912A] text-white rounded-2xl max-w-[433px] h-[330px] p-[25px]">
+                                <p class="text-[27px] font-nunito font-bold leading-[1.1]">Разрабатывать стратегии продвижения соц сетях</p>
+                                <p class="text-xl mt-[20px]">
+                                    Мы научим вас распознавать цели и задачи клиента, а также разрабатывать детальные стратегии продвижения, чтобы точно достигать этих целей.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="bg-gradient-to-l from-[#F7AF30] to-[#F9912A] text-white rounded-2xl max-w-[433px] h-[330px] p-[25px]">
+                                <p  class="text-[27px] font-nunito font-bold leading-[1.1]">Копирайтинг и умение писать продающие тексты</p>
+                                <p class="text-xl mt-[20px]">
+                                    Мы научим вас создавать привлекательные и увлекательные тексты для социальных сетей, которые заставят заметить ваш бренд и привлекут внимание потенциальных клиентов.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="bg-gradient-to-l from-[#F7AF30] to-[#F9912A] text-white rounded-2xl max-w-[433px] h-[330px] p-[25px]">
+                                <p  class="text-[27px] font-nunito font-bold leading-[1.1]">Дизайне и Умение создавать контент</p>
+                                <p class="text-xl mt-[20px]">
+                                    Мы научим вас создавать контент, который захватит внимание вашей аудитории, а также обучим работать с графическими редакторами, чтобы создавать уникальный и запоминающийся визуальный контент.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="bg-gradient-to-l from-[#F7AF30] to-[#F9912A] text-white rounded-2xl max-w-[433px] h-[330px] p-[25px]">
+                                <p  class="text-[27px] font-nunito font-bold leading-[1.1]">Анализировать результаты и оптимизировать рекламу</p>
+                                <p class="text-xl mt-[20px]">
+                                    Мы обучим вас анализировать результаты продвижения в социальных сетях и оптимизировать кампании, чтобы достигать наилучших показателей и получать максимальную отдачу от вашего бюджета.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="bg-gradient-to-l from-[#F7AF30] to-[#F9912A] text-white rounded-2xl max-w-[433px] h-[330px] p-[25px]">
+                                <p  class="text-[27px] font-nunito font-bold leading-[1.1]">Работать с рекламными инструментами соц сетей</p>
+                                <p class="text-xl mt-[20px]">
+                                    Мы обучим вас работать с рекламными инструментами социальных сетей для увеличения охвата вашей целевой аудитории и настройки рекламных кампаний для достижения максимального воздействия на вашу аудиторию.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="bg-gradient-to-l from-[#F7AF30] to-[#F9912A] text-white rounded-2xl max-w-[433px] h-[330px] p-[25px]">
+                                <p  class="text-[27px] font-nunito font-bold leading-[1.1]">Работать в команде и управлять проектами</p>
+                                <p class="text-xl mt-[20px]">
+                                    Мы научим вас эффективно работать в команде и управлять проектами с клиентами и коллегами для достижения общих целей.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="review">
+                <div class="container mx-auto">
+                   <div class="slide-crap relative w-[100%] h-[430px]">
+                    <div class="outside-slide relative w-[70%] h-[430px]">
+                        <div class="swiper-container absolute w-[100%] h-[100%]">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide flex bg-[#E5FFF1] p-[30px] rounded-2xl gap-x-[20px]">
+                                    <div>
+                                        <p class="bg-[#37FF93] text-gray-500 font-semibold font-nunito rounded-lg text-5xl p-[10px]">БK</p>
+                                    </div>
+                                    <div class="flex flex-col gap-y-[20px]">
+                                        <div class="flex justify-between items-center">
+                                            <div class="name">
+                                                <p class="text-xl font-nunito font-bold">Багжан Карл</p>
+                                                <p>Студент тестового периода</p>
+                                            </div>
+                                            <div class="flex items-center gap-[10px]">
+                                                <a>
+                                                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M21.8331 4.33313C23.3789 4.33774 24.8601 4.95385 25.9531 6.04689C27.0462 7.13993 27.6623 8.62109 27.6669 10.1669V21.8331C27.6623 23.3789 27.0462 24.8601 25.9531 25.9531C24.8601 27.0462 23.3789 27.6623 21.8331 27.6669H10.1669C8.62109 27.6623 7.13993 27.0462 6.04689 25.9531C4.95385 24.8601 4.33774 23.3789 4.33313 21.8331V10.1669C4.33774 8.62109 4.95385 7.13993 6.04689 6.04689C7.13993 4.95385 8.62109 4.33774 10.1669 4.33313H21.8331ZM21.8331 2H10.1669C5.675 2 2 5.675 2 10.1669V21.8331C2 26.325 5.675 30 10.1669 30H21.8331C26.325 30 30 26.325 30 21.8331V10.1669C30 5.675 26.325 2 21.8331 2Z" fill="black"/>
+                                                        <path d="M23.583 10.167C23.2369 10.167 22.8985 10.0644 22.6108 9.87207C22.323 9.67977 22.0987 9.40646 21.9662 9.08669C21.8338 8.76692 21.7991 8.41505 21.8666 8.07558C21.9342 7.73612 22.1008 7.4243 22.3456 7.17956C22.5903 6.93481 22.9021 6.76814 23.2416 6.70062C23.5811 6.63309 23.9329 6.66775 24.2527 6.8002C24.5725 6.93266 24.8458 7.15696 25.0381 7.44475C25.2304 7.73253 25.333 8.07088 25.333 8.41699C25.3335 8.64694 25.2886 8.87473 25.2008 9.08727C25.113 9.29982 24.9841 9.49293 24.8215 9.65553C24.6589 9.81813 24.4658 9.94702 24.2533 10.0348C24.0407 10.1226 23.813 10.1675 23.583 10.167Z" fill="black"/>
+                                                        <path d="M16 11.3331C16.923 11.3331 17.8253 11.6068 18.5928 12.1196C19.3602 12.6324 19.9584 13.3613 20.3116 14.2141C20.6649 15.0668 20.7573 16.0052 20.5772 16.9105C20.3971 17.8157 19.9527 18.6473 19.3 19.3C18.6473 19.9527 17.8157 20.3971 16.9105 20.5772C16.0052 20.7573 15.0668 20.6649 14.2141 20.3116C13.3613 19.9584 12.6324 19.3602 12.1196 18.5928C11.6068 17.8253 11.3331 16.923 11.3331 16C11.3345 14.7627 11.8266 13.5764 12.7015 12.7015C13.5764 11.8266 14.7627 11.3344 16 11.3331ZM16 9C14.6155 9 13.2622 9.41054 12.111 10.1797C10.9599 10.9489 10.0627 12.0421 9.53285 13.3212C9.00303 14.6003 8.86441 16.0078 9.13451 17.3656C9.4046 18.7235 10.0713 19.9708 11.0503 20.9497C12.0292 21.9287 13.2765 22.5954 14.6344 22.8655C15.9922 23.1356 17.3997 22.997 18.6788 22.4672C19.9579 21.9373 21.0511 21.0401 21.8203 19.889C22.5895 18.7378 23 17.3845 23 16C23 14.1435 22.2625 12.363 20.9497 11.0503C19.637 9.7375 17.8565 9 16 9Z" fill="black"/>
+                                                        </svg>                                                    
+                                                </a>
+                                                <p>Instagram</p>
+                                            </div>
+                                        </div>
+                                        <p>
+                                            <svg width="108" height="20" viewBox="0 0 108 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M10 0L12.2451 6.90983H19.5106L13.6327 11.1803L15.8779 18.0902L10 13.8197L4.12215 18.0902L6.36729 11.1803L0.489435 6.90983H7.75486L10 0Z" fill="#FBFF2E"/>
+                                                <path d="M32 0L34.2451 6.90983H41.5106L35.6327 11.1803L37.8779 18.0902L32 13.8197L26.1221 18.0902L28.3673 11.1803L22.4894 6.90983H29.7549L32 0Z" fill="#FBFF2E"/>
+                                                <path d="M54 0L56.2451 6.90983H63.5106L57.6327 11.1803L59.8779 18.0902L54 13.8197L48.1221 18.0902L50.3673 11.1803L44.4894 6.90983H51.7549L54 0Z" fill="#FBFF2E"/>
+                                                <path d="M76 0L78.2451 6.90983H85.5106L79.6327 11.1803L81.8779 18.0902L76 13.8197L70.1221 18.0902L72.3673 11.1803L66.4894 6.90983H73.7549L76 0Z" fill="#FBFF2E"/>
+                                                <path d="M98 0L100.245 6.90983H107.511L101.633 11.1803L103.878 18.0902L98 13.8197L92.1221 18.0902L94.3673 11.1803L88.4894 6.90983H95.7549L98 0Z" fill="#FBFF2E"/>
+                                                </svg>                                            
+                                        </p>
+                                        <p class="text-lg">
+                                            This code creates a carousel with buttons for transitioning between slides. The carousel is made using HTML and CSS, and the buttons are controlled using JavaScript. The active class is added and removed from slides to transition between them. The prev and next buttons have event listeners that change the index of the active slide when clicked.
+                                        </p>
+                                    </div>
+
+                                </div>
+                                <div class="swiper-slide flex bg-[#F8FFE5] p-[30px] rounded-2xl gap-x-[20px]">
+                                    <div>
+                                        <p class="bg-[#37FF93] text-gray-500 font-semibold font-nunito rounded-lg text-5xl p-[10px]">БK</p>
+                                    </div>
+                                    <div class="flex flex-col gap-y-[20px]">
+                                        <div class="flex justify-between items-center">
+                                            <div class="name">
+                                                <p class="text-xl font-nunito font-bold">Багжан Карл</p>
+                                                <p>Студент тестового периода</p>
+                                            </div>
+                                            <div class="flex items-center gap-[10px]">
+                                                <a>
+                                                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M21.8331 4.33313C23.3789 4.33774 24.8601 4.95385 25.9531 6.04689C27.0462 7.13993 27.6623 8.62109 27.6669 10.1669V21.8331C27.6623 23.3789 27.0462 24.8601 25.9531 25.9531C24.8601 27.0462 23.3789 27.6623 21.8331 27.6669H10.1669C8.62109 27.6623 7.13993 27.0462 6.04689 25.9531C4.95385 24.8601 4.33774 23.3789 4.33313 21.8331V10.1669C4.33774 8.62109 4.95385 7.13993 6.04689 6.04689C7.13993 4.95385 8.62109 4.33774 10.1669 4.33313H21.8331ZM21.8331 2H10.1669C5.675 2 2 5.675 2 10.1669V21.8331C2 26.325 5.675 30 10.1669 30H21.8331C26.325 30 30 26.325 30 21.8331V10.1669C30 5.675 26.325 2 21.8331 2Z" fill="black"/>
+                                                        <path d="M23.583 10.167C23.2369 10.167 22.8985 10.0644 22.6108 9.87207C22.323 9.67977 22.0987 9.40646 21.9662 9.08669C21.8338 8.76692 21.7991 8.41505 21.8666 8.07558C21.9342 7.73612 22.1008 7.4243 22.3456 7.17956C22.5903 6.93481 22.9021 6.76814 23.2416 6.70062C23.5811 6.63309 23.9329 6.66775 24.2527 6.8002C24.5725 6.93266 24.8458 7.15696 25.0381 7.44475C25.2304 7.73253 25.333 8.07088 25.333 8.41699C25.3335 8.64694 25.2886 8.87473 25.2008 9.08727C25.113 9.29982 24.9841 9.49293 24.8215 9.65553C24.6589 9.81813 24.4658 9.94702 24.2533 10.0348C24.0407 10.1226 23.813 10.1675 23.583 10.167Z" fill="black"/>
+                                                        <path d="M16 11.3331C16.923 11.3331 17.8253 11.6068 18.5928 12.1196C19.3602 12.6324 19.9584 13.3613 20.3116 14.2141C20.6649 15.0668 20.7573 16.0052 20.5772 16.9105C20.3971 17.8157 19.9527 18.6473 19.3 19.3C18.6473 19.9527 17.8157 20.3971 16.9105 20.5772C16.0052 20.7573 15.0668 20.6649 14.2141 20.3116C13.3613 19.9584 12.6324 19.3602 12.1196 18.5928C11.6068 17.8253 11.3331 16.923 11.3331 16C11.3345 14.7627 11.8266 13.5764 12.7015 12.7015C13.5764 11.8266 14.7627 11.3344 16 11.3331ZM16 9C14.6155 9 13.2622 9.41054 12.111 10.1797C10.9599 10.9489 10.0627 12.0421 9.53285 13.3212C9.00303 14.6003 8.86441 16.0078 9.13451 17.3656C9.4046 18.7235 10.0713 19.9708 11.0503 20.9497C12.0292 21.9287 13.2765 22.5954 14.6344 22.8655C15.9922 23.1356 17.3997 22.997 18.6788 22.4672C19.9579 21.9373 21.0511 21.0401 21.8203 19.889C22.5895 18.7378 23 17.3845 23 16C23 14.1435 22.2625 12.363 20.9497 11.0503C19.637 9.7375 17.8565 9 16 9Z" fill="black"/>
+                                                        </svg>                                                    
+                                                </a>
+                                                <p>Instagram</p>
+                                            </div>
+                                        </div>
+                                        <p>
+                                            <svg width="108" height="20" viewBox="0 0 108 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M10 0L12.2451 6.90983H19.5106L13.6327 11.1803L15.8779 18.0902L10 13.8197L4.12215 18.0902L6.36729 11.1803L0.489435 6.90983H7.75486L10 0Z" fill="#FBFF2E"/>
+                                                <path d="M32 0L34.2451 6.90983H41.5106L35.6327 11.1803L37.8779 18.0902L32 13.8197L26.1221 18.0902L28.3673 11.1803L22.4894 6.90983H29.7549L32 0Z" fill="#FBFF2E"/>
+                                                <path d="M54 0L56.2451 6.90983H63.5106L57.6327 11.1803L59.8779 18.0902L54 13.8197L48.1221 18.0902L50.3673 11.1803L44.4894 6.90983H51.7549L54 0Z" fill="#FBFF2E"/>
+                                                <path d="M76 0L78.2451 6.90983H85.5106L79.6327 11.1803L81.8779 18.0902L76 13.8197L70.1221 18.0902L72.3673 11.1803L66.4894 6.90983H73.7549L76 0Z" fill="#FBFF2E"/>
+                                                <path d="M98 0L100.245 6.90983H107.511L101.633 11.1803L103.878 18.0902L98 13.8197L92.1221 18.0902L94.3673 11.1803L88.4894 6.90983H95.7549L98 0Z" fill="#FBFF2E"/>
+                                                </svg>                                            
+                                        </p>
+                                        <p class="text-lg">
+                                            This code creates a carousel with buttons for transitioning between slides. The carousel is made using HTML and CSS, and the buttons are controlled using JavaScript. The active class is added and removed from slides to transition between them. The prev and next buttons have event listeners that change the index of the active slide when clicked.
+                                        </p>
+                                    </div>
+
+                                </div>
+                                <div class="swiper-slide flex bg-[#E5FFF1] p-[30px] rounded-2xl gap-x-[20px]">
+                                    <div>
+                                        <p class="bg-[#37FF93] text-gray-500 font-semibold font-nunito rounded-lg text-5xl p-[10px]">БK</p>
+                                    </div>
+                                    <div class="flex flex-col gap-y-[20px]">
+                                        <div class="flex justify-between items-center">
+                                            <div class="name">
+                                                <p class="text-xl font-nunito font-bold">Багжан Карл</p>
+                                                <p>Студент тестового периода</p>
+                                            </div>
+                                            <div class="flex items-center gap-[10px]">
+                                                <a>
+                                                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M21.8331 4.33313C23.3789 4.33774 24.8601 4.95385 25.9531 6.04689C27.0462 7.13993 27.6623 8.62109 27.6669 10.1669V21.8331C27.6623 23.3789 27.0462 24.8601 25.9531 25.9531C24.8601 27.0462 23.3789 27.6623 21.8331 27.6669H10.1669C8.62109 27.6623 7.13993 27.0462 6.04689 25.9531C4.95385 24.8601 4.33774 23.3789 4.33313 21.8331V10.1669C4.33774 8.62109 4.95385 7.13993 6.04689 6.04689C7.13993 4.95385 8.62109 4.33774 10.1669 4.33313H21.8331ZM21.8331 2H10.1669C5.675 2 2 5.675 2 10.1669V21.8331C2 26.325 5.675 30 10.1669 30H21.8331C26.325 30 30 26.325 30 21.8331V10.1669C30 5.675 26.325 2 21.8331 2Z" fill="black"/>
+                                                        <path d="M23.583 10.167C23.2369 10.167 22.8985 10.0644 22.6108 9.87207C22.323 9.67977 22.0987 9.40646 21.9662 9.08669C21.8338 8.76692 21.7991 8.41505 21.8666 8.07558C21.9342 7.73612 22.1008 7.4243 22.3456 7.17956C22.5903 6.93481 22.9021 6.76814 23.2416 6.70062C23.5811 6.63309 23.9329 6.66775 24.2527 6.8002C24.5725 6.93266 24.8458 7.15696 25.0381 7.44475C25.2304 7.73253 25.333 8.07088 25.333 8.41699C25.3335 8.64694 25.2886 8.87473 25.2008 9.08727C25.113 9.29982 24.9841 9.49293 24.8215 9.65553C24.6589 9.81813 24.4658 9.94702 24.2533 10.0348C24.0407 10.1226 23.813 10.1675 23.583 10.167Z" fill="black"/>
+                                                        <path d="M16 11.3331C16.923 11.3331 17.8253 11.6068 18.5928 12.1196C19.3602 12.6324 19.9584 13.3613 20.3116 14.2141C20.6649 15.0668 20.7573 16.0052 20.5772 16.9105C20.3971 17.8157 19.9527 18.6473 19.3 19.3C18.6473 19.9527 17.8157 20.3971 16.9105 20.5772C16.0052 20.7573 15.0668 20.6649 14.2141 20.3116C13.3613 19.9584 12.6324 19.3602 12.1196 18.5928C11.6068 17.8253 11.3331 16.923 11.3331 16C11.3345 14.7627 11.8266 13.5764 12.7015 12.7015C13.5764 11.8266 14.7627 11.3344 16 11.3331ZM16 9C14.6155 9 13.2622 9.41054 12.111 10.1797C10.9599 10.9489 10.0627 12.0421 9.53285 13.3212C9.00303 14.6003 8.86441 16.0078 9.13451 17.3656C9.4046 18.7235 10.0713 19.9708 11.0503 20.9497C12.0292 21.9287 13.2765 22.5954 14.6344 22.8655C15.9922 23.1356 17.3997 22.997 18.6788 22.4672C19.9579 21.9373 21.0511 21.0401 21.8203 19.889C22.5895 18.7378 23 17.3845 23 16C23 14.1435 22.2625 12.363 20.9497 11.0503C19.637 9.7375 17.8565 9 16 9Z" fill="black"/>
+                                                        </svg>                                                    
+                                                </a>
+                                                <p>Instagram</p>
+                                            </div>
+                                        </div>
+                                        <p>
+                                            <svg width="108" height="20" viewBox="0 0 108 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M10 0L12.2451 6.90983H19.5106L13.6327 11.1803L15.8779 18.0902L10 13.8197L4.12215 18.0902L6.36729 11.1803L0.489435 6.90983H7.75486L10 0Z" fill="#FBFF2E"/>
+                                                <path d="M32 0L34.2451 6.90983H41.5106L35.6327 11.1803L37.8779 18.0902L32 13.8197L26.1221 18.0902L28.3673 11.1803L22.4894 6.90983H29.7549L32 0Z" fill="#FBFF2E"/>
+                                                <path d="M54 0L56.2451 6.90983H63.5106L57.6327 11.1803L59.8779 18.0902L54 13.8197L48.1221 18.0902L50.3673 11.1803L44.4894 6.90983H51.7549L54 0Z" fill="#FBFF2E"/>
+                                                <path d="M76 0L78.2451 6.90983H85.5106L79.6327 11.1803L81.8779 18.0902L76 13.8197L70.1221 18.0902L72.3673 11.1803L66.4894 6.90983H73.7549L76 0Z" fill="#FBFF2E"/>
+                                                <path d="M98 0L100.245 6.90983H107.511L101.633 11.1803L103.878 18.0902L98 13.8197L92.1221 18.0902L94.3673 11.1803L88.4894 6.90983H95.7549L98 0Z" fill="#FBFF2E"/>
+                                                </svg>                                            
+                                        </p>
+                                        <p class="text-lg">
+                                            This code creates a carousel with buttons for transitioning between slides. The carousel is made using HTML and CSS, and the buttons are controlled using JavaScript. The active class is added and removed from slides to transition between them. The prev and next buttons have event listeners that change the index of the active slide when clicked.
+                                        </p>
+                                    </div>
+
+                                </div>
+                                <!-- Add more review slides as needed -->
+                            </div>
+                            <div class="panel-mainSwiper absolute z-10 bottom-[-100px] left-[0px] flex items-center">
+                                <div class="swiper-button-prev-1">
+                                    <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M25 6.25C14.6484 6.25 6.25 14.6484 6.25 25C6.25 35.3516 14.6484 43.75 25 43.75C35.3516 43.75 43.75 35.3516 43.75 25C43.75 14.6484 35.3516 6.25 25 6.25Z" stroke="#5C5C5C" stroke-width="3.125" stroke-miterlimit="10"/>
+                                        <path d="M28.9062 34.375L19.5312 25L28.9062 15.625" stroke="#5C5C5C" stroke-width="3.125" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>                                                                     
+                                   </div>
+                                   <p>Отзывы</p>
+                                    <div class="swiper-button-next-1">
+                                        <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M6.25 25C6.25 35.3516 14.6484 43.75 25 43.75C35.3516 43.75 43.75 35.3516 43.75 25C43.75 14.6484 35.3516 6.25 25 6.25C14.6484 6.25 6.25 14.6484 6.25 25Z" stroke="#5C5C5C" stroke-width="3.125" stroke-miterlimit="10"/>
+                                            <path d="M21.0938 34.375L30.4688 25L21.0938 15.625" stroke="#5C5C5C" stroke-width="3.125" stroke-linecap="round" stroke-linejoin="round"/>
+                                            </svg>                                                           
+                                   </div>
+                             </div>
+                        </div>
+                    </div>
+                   </div>
+                </div>
+            </section> 
         </main>
+        <script>
+            // Initialize Swiper
+            var swiper = new Swiper(".swiper-container", {
+                grabCursor: true,
+                effect: "creative",
+                spaceBetween: 30,
+                loop: true,
+                speed: 700,
+                creativeEffect: {
+                    prev: {
+                    shadow: true,
+                    translate: [0, 0, -400],
+                    },
+                    next: {
+                    translate: ["100%", 0, 0],
+                    },
+                },
+                navigation: {
+                    nextEl: ".swiper-button-next-1",
+                    prevEl: ".swiper-button-prev-1",
+                },
+                });
+        </script>
 </body>
 </html>
